@@ -230,17 +230,12 @@ def robot_arm_auto_reset_demo():
         print("-" * 60)
 
         # ========== 多次抓取配置 ==========
-        # total_rounds = 5           # 总抓取次数
-        # success_count = 0          # 成功次数计数器
-        
-        # ========== 多次抓取配置 ==========
         # 从命令行读取抓取次数，默认 5 次
         if len(sys.argv) > 1:
             total_rounds = int(sys.argv[1])
         else:
             total_rounds = 5
         print(f"📌 本次将抓取 {total_rounds} 次")
-
         success_count = 0          # 成功次数计数器
 
         for round_num in range(1, total_rounds + 1):
