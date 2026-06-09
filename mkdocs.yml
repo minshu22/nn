@@ -45,6 +45,12 @@ copyright: OpenHUTB 版权所有 &copy; {year}
 
 nav:
 - 首页: 'index.md'
+- 机械臂抓取:
+  - 模块简介: 'mechanical_arm_grasping/index.md'
+  - 快速开始: 'mechanical_arm_grasping/getting_started.md'
+  - API 参考: 'mechanical_arm_grasping/api_reference.md'
+  - 配置说明: 'mechanical_arm_grasping/configuration.md'
+  - 示例代码: 'mechanical_arm_grasping/examples.md'
 
 
 # - mdx_math 用于行内公式显示
